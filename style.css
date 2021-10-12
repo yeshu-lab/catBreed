@@ -1,0 +1,214 @@
+body {
+margin : 20px;
+padding : 0;
+font : 75% "arial", verdana, arial, sans-serif;
+color : black;
+background :orange
+}
+#container {
+width : 750px;
+border : 5px solid #fff;
+margin-left : auto;
+margin-right : auto;
+padding : 10px;
+color : #666;
+background : #f2f2f5;
+}
+	
+#banner {
+float : left;
+width : 510px;
+height : 250px;
+padding : 0;
+margin-bottom : 0px;
+color : #666;
+background : black;
+}
+#bannerb {
+float : right;
+width : 240px;
+height : 250px;
+margin : 0px;
+padding : 0;
+color : black;
+background :black;
+color: orange;
+font-size: large;
+font-family: Verdana, sans-serif ,Geneva, Tahoma;
+}
+#searchbar {
+	float : right;
+	height : 10px;
+	padding : 0;
+	color : #666;
+	background : black;
+	
+	}		
+#navcontainer {
+clear : both;
+width : 100%;
+height: 35px;
+}
+#navcontainer ul {
+float : left;
+width : 100%;
+height: 35px;
+padding-left : 0;
+margin-left : 0;
+background : black;
+color : #fff;
+}
+#navcontainer ul li {
+display : inline;
+}
+#navcontainer ul li a {
+float : left;
+padding : 0.2em 1em;
+text-decoration : none;
+border-right : 1px solid #fff;
+background : black;
+color : #fff;
+}
+#navcontainer ul li a:hover {
+
+background : orange;
+color : #fff;
+}
+#active a:link, #active a:visited, #active a:hover {
+background : orange;
+color : #fff;
+}
+#activenav a:link, #activenav a:visited, #activenav a:hover {
+	background : rgb(252, 195, 90);
+	color : #fff;
+	}
+#content {
+padding : 10px;
+margin-left : 190px;
+margin-right : 190px;
+background : inherit;
+color : #666;
+}
+			/*LEFT CONTENT*/
+#leftbar {
+float : left;
+width : 170px;
+margin : 0 0 0 0;
+padding : 10px;
+color : #666;
+background : #f2f2f5;
+}
+		
+#menu {
+width : 160px;
+padding : 10px 0 0 0;
+}
+#menu ul {
+margin : 0;
+padding : 0;
+list-style-type : none;
+}
+#menu li {
+margin : 0 0 0.1em 0;
+}
+#menu a {
+display : block;
+width : 150px;
+height: 25px;
+padding : 0.1em 0.8em;
+text-decoration : none;
+color : #fff;
+background : orange;
+}
+#menu a:hover {
+background : black;
+color : #fff;
+}
+	
+#rightbarContainer {
+float : right;
+width : 170px;
+height : 550px;
+margin : 0;
+padding : 10px;
+border-left : 1px solid orange;
+background : #f2f2f5;
+color : #666;
+}
+
+div.rightbar{
+
+height : 15em;
+width : 140px;
+padding : 1ex;
+color : #333;
+background : #f2f2f5;
+border : 1px solid #eee;
+margin : 20px 0 25px 10px;
+}
+		
+#footer {
+clear : both;
+padding : 5px;
+margin-top : 5px;
+color : white;
+background : black;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : #eee;
+text-decoration : none;
+}
+#footer a:hover {
+
+background :black;
+color : orange;
+}
+	
+h1, h2 {
+margin : 0 0 10px 5px;
+letter-spacing : 3px;
+font-size : 120%;
+color : orange;
+background : inherit;
+}
+h3 {
+font-size : 110%;
+color : orange;
+background : inherit;
+}
+			/*LINKS*/
+a {
+color : #826c45;
+font-weight : bold;
+text-decoration : none;
+background : inherit;
+}
+a:hover {
+color : #697899;
+background : inherit;
+}
+			/*CLASSES*/
+.news {
+font-size : 100%;
+background : inherit;
+color : #333;
+}
+.sitename {
+font-size : 180%;
+margin : 0 0 10px 0;
+color : #826c45;
+background : inherit;
+}
+
+#myInput {
+	
+	
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	width: 90.9%; /* Full-width */
+	font-size: 14px; /* Increase font-size */
+	
+	border: 1px solid #ddd; /* Add a grey border */
+	margin-bottom: 1px; /* Add some space below the input */
+  }
+  
